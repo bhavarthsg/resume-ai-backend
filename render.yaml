@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: resume-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: "uvicorn resume_backend:app --host 0.0.0.0 --port 10000"
